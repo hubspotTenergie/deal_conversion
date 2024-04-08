@@ -9,7 +9,7 @@ const dealStageEnum = {
 }
 
 const taskStageEnum = {
-    TASK_STAGE_R3_1: 'R3-1 : Compléter la vue Amanda "Documents commerciaux" ',
+    TASK_STAGE_R3_1: 'R3-1 : Compléter la vue Amanda "Documents commerciaux"',
     TASK_STAGE_R3_2: 'R3-2 : Confirmer la conversion de transaction dans Amanda',
 }
 
@@ -59,7 +59,7 @@ const DealsSummary = ({runServerless, fetchProperties, context}) => {
                 }
 
             })
-    }, [fetchProperties,message])
+    }, [fetchProperties, message])
 
     useEffect(() => {
         if (context && context.user) {
@@ -418,7 +418,7 @@ const DealsSummary = ({runServerless, fetchProperties, context}) => {
                 wrap={'wrap'}
                 gap={'small'}
             >
-                {!converted && <Button disabled={!conditionsMet} onClick={toggleNeedConfirmation} variant={'primary'}>Convertir TEST</Button>}
+                {!converted && <Button disabled={!conditionsMet} onClick={toggleNeedConfirmation} variant={'primary'}>Convertir</Button>}
             </Flex>}
         </>)
 };
