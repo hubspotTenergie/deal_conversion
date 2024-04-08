@@ -418,7 +418,7 @@ const DealsSummary = ({runServerless, fetchProperties, context}) => {
                 wrap={'wrap'}
                 gap={'small'}
             >
-                {!converted && <Button disabled={!conditionsMet} onClick={toggleNeedConfirmation} variant={'primary'}>Convertir</Button>}
+                {!converted && <Button disabled={!conditionsMet} onClick={toggleNeedConfirmation} variant={'primary'}>Convertir TEST</Button>}
             </Flex>}
         </>)
 };
