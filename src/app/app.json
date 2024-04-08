@@ -1,5 +1,5 @@
 {
-  "name": "Composant : Conversion de transaction (v 0.0.1)",
+  "name": "Composant : Conversion de transaction (v 0.1.0)",
   "description": "Convertir la transaction",
   "uid": "validation_projet",
   "scopes": [
