@@ -9,7 +9,7 @@ const dealStageEnum = {
 }
 
 const taskStageEnum = {
-    TASK_STAGE_R3_1: 'R3-1 : Compléter la vue Amanda "Documents commerciaux"',
+    TASK_STAGE_R3_1: 'R3-1 : Compléter la vue Amanda "Documents commerciaux" ',
     TASK_STAGE_R3_2: 'R3-2 : Confirmer la conversion de transaction dans Amanda',
 }
 
