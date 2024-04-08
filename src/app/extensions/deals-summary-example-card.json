@@ -1,0 +1,16 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Convertir la transaction",
+    "uid": "validation_projet",
+    "location": "crm.record.sidebar",
+    "module": {
+      "file": "DealsSummaryExampleCard.jsx"
+    },
+    "objectTypes": [
+      {
+        "name": "deals"
+      }
+    ]
+  }
+}

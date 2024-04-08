@@ -1,0 +1,24 @@
+{
+  "name": "Composant : Conversion de transaction (v 0.0.1)",
+  "description": "Convertir la transaction",
+  "uid": "validation_projet",
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write",
+    "crm.objects.deals.read",
+    "crm.objects.deals.write",
+    "crm.objects.owners.read",
+    "crm.objects.users.read",
+    "settings.users.teams.read"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/deals-summary-example-card.json"
+        }
+      ]
+    }
+  }
+}
